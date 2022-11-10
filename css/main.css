@@ -1,0 +1,76 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+html {
+    font-family: Roboto;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infobox {
+    max-width: 20rem;
+    max-height: 40rem;
+    padding: 2rem 1.5rem;
+    margin: 0;
+    border: 2px solid #f6f6f6;
+}
+
+.infobox:hover{
+    box-shadow: 5px 5px 5px lightgrey;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.infobox__content {
+    margin-top: 0;
+    padding-top: 0;
+}
+.infobox__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.infobox__photo {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: contain;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.infobox__btn {
+    display: inline-block;
+    background-color: #57b036;
+    padding: 0.85rem 0.5rem 0.85rem 0.75rem;
+    height: auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.infobox__price {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    
+}
+.infobox__bubble {
+    display: block;
+    border-radius: 2rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 1rem;
+    text-align: center;
+    padding: 4px 12px;
+    background: linear-gradient(to right bottom, rgb(205, 220, 57) 0px, rgb(139, 195, 74));
+    font-size: .95rem;
+    color: #fff;
+}
+
+.infobox__header{
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
