@@ -61,7 +61,8 @@ html {
     line-height: 1.4rem;
     
 }
-.infobox__bubble {
+
+.stitek{
     display: block;
     border-radius: 2rem;
     position: absolute;
@@ -69,9 +70,12 @@ html {
     right: 1rem;
     text-align: center;
     padding: 6px 12px;
-    background: linear-gradient(to right bottom, rgb(205, 220, 57) 0px, rgb(139, 195, 74));
     font-size: .95rem;
+}
+ 
+.stitek--bubble{
     color: #fff;
+    background: linear-gradient(to right bottom, rgb(205, 220, 57) 0px, rgb(139, 195, 74));
 }
 
 .infobox__header{
