@@ -33,7 +33,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .infobox__btn:hover{
@@ -59,7 +58,6 @@ html {
 .infobox__price {
     font-size: 1.2rem;
     line-height: 1.4rem;
-    
 }
 
 .stitek{
