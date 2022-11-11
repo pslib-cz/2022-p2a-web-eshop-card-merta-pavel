@@ -27,13 +27,17 @@ html {
 
 .infobox__content {
     margin-top: 0;
-    padding-top: 0;
+    padding: 1em 0;
 }
 .infobox__footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     
+}
+
+.infobox__btn:hover{
+    text-decoration: underline;
 }
 .infobox__photo {
     width: 100%;
@@ -75,3 +79,4 @@ html {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
