@@ -49,6 +49,7 @@ html {
     height: auto;
     color: #fff;
     text-decoration: none;
+   
 }
 
 .infobox__price {
@@ -63,7 +64,7 @@ html {
     top: 0.2rem;
     right: 1rem;
     text-align: center;
-    padding: 4px 12px;
+    padding: 6px 12px;
     background: linear-gradient(to right bottom, rgb(205, 220, 57) 0px, rgb(139, 195, 74));
     font-size: .95rem;
     color: #fff;
