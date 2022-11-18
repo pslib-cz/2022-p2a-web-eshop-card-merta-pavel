@@ -18,6 +18,8 @@ html {
     padding: 2rem 1.5rem;
     margin: 0;
     border: 2px solid #f6f6f6;
+    display: flex;
+    flex-direction: column;
 }
 
 .infobox:hover{
@@ -28,6 +30,7 @@ html {
 .infobox__content {
     margin-top: 0;
     padding: 1em 0;
+    flex-grow: 1;
 }
 .infobox__footer {
     display: flex;
